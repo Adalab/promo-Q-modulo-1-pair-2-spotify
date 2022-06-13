@@ -1,9 +1,22 @@
-.link__adalab:hover {
-  background-color: #099d8d;
-  color: #fff;
+.link {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.link__github:hover {
-  background-color: #CCC;
-  color: #000;
+.link:hover {
+  color: #4bb84a;
+}
+
+.link-signup:before {
+  padding-left: 4px;
+  content: '|';
+  color:$color-white;
+}
+.footer-menu-links:hover {
+  color: $color-white;
+}
+.footer-menu-links {
+  display: inline-block;
+  padding: 7px;
 }
